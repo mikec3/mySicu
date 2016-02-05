@@ -18,7 +18,8 @@
          <? include ("SICUMenu.html") ?>  
 
        </div>
-    </div>
+    </div> 
+    
      <!-- END OF header/nav bar -->
      
      
