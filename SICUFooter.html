@@ -1,0 +1,74 @@
+<head>
+
+<link href="footerCSS.css" rel="stylesheet">
+<script src="footerJS.js"></script>
+
+
+</head>
+
+<!--
+<body id="body" style="overflow:hidden;">
+
+-->
+
+
+
+
+<div class="footer" 
+style="
+ margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    min-height: 30px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
+       position: relative;
+       clear: both;
+">
+
+  
+    
+    <div id="abc">
+<!-- Popup Div Starts Here -->
+<div id="popupContact">
+<!-- Contact Us Form -->
+<form action="email.php" id="contact" method="post" name="form" onsubmit="ContactSuccess()">
+
+<!-- Below is a "hidden" field that holds the value of the $_SERVER["REQUEST_URI"], this stores the path to the page that this form is on, this allows the destination to be set as a header(location: #) in email.php to return user to the page that sent them there. -->
+<input type="hidden" name="desination" value="<?php echo $_SERVER["REQUEST_URI"]; ?>"/>    
+
+
+<img id="close" src="/Assets/dialog_close.png" onclick ="div_hide()">
+<h2>Contact Us</h2>
+     <p> E-mail: <a href="mailto:mikecouch@mysicu.com">mikecouch@mysicu.com</a></p>
+<hr>
+<input id="name" name="name" placeholder="Name" type="text" required autofocus>    <!-- autofocus makes the cursur live in this box first-->
+<input id="email" name="email" placeholder="Email" type="text" required>	    <!--required makes user input, otherwise won't submit-->	
+<textarea id="msg" name="message" placeholder="Message" required></textarea>
+
+<input type="submit" name="submit" id="submit" value="submit">   <!-- Forgive me code gods, I know not of what i do -->
+
+<!-- Stock submit button, I'm trying out my own above.
+<a href="javascript:%20check_empty()" id="submit" >Send</a>
+-->
+</form>
+</div>
+<!-- Popup Div Ends Here -->
+</div>
+    
+    
+    
+    
+    
+    <button id="popup" onclick="div_show()">Contact</button>
+    
+    <ul style=" padding-top: 10px;">
+ Created by Mike Couch, 2015 
+</ul>
+    
+    
+</div>
+</body>
