@@ -21,7 +21,16 @@
     </div>
     
     <div class="topSCISMenu">
-    
+        
+        <a href="#cardiothoracic">Cardiothoracic</a>
+        <a href="#general">General</a>
+        <a href="#neuro"> Neuro</a>
+        <a href="#thoracic"> Thoracic</a>
+        <a href="#urology"> Urology</a>
+        <a href="#vascular"> Vascular</a>
+        <div id="topSCISDivider"></div>
+        <a href="mySicuPdf/AllSCIS.pdf"> Print All</a>
+        
     </div>
     
    <div class="logocontainer" >
