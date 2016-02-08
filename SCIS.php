@@ -19,11 +19,12 @@
 
        </div>
     </div>
+    
+    <div class="topSCISMenu">
+    
+    </div>
+    
    <div class="logocontainer" >
-       
-       <!--
-   <div class="dropdown-container"  id="cardiothoracic" style="background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8n0GVJZiHlomF6gFRMUw9W1vSkdSkN9vgWlnedLkiSiTHLAt5Rg');">
-       -->
        <div class="dropdown-container" id="cardiothoracic">
         <li class="dropdown">
             <a href="#cardiothoracic" class="dropdown-toggle">Cardiothoracic </a>

@@ -19,18 +19,6 @@ html, body {
 }
 
 
-/*
-.footer {
- margin-top: 50px;
-    bottom: 0;
-    width: 100%;
-    min-height: 30px;
-    padding: 15px;
-    border-top: 1px solid #ddd;
-}
-
-*/
-
 .container {
  width:100%;   
 }
@@ -62,27 +50,12 @@ html, body {
     border:none;
 }
 
-/*
-.dropdown-container {
- list-style: none;
-    display: inline-block;
-margin: 100px;
-    
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;  
-   border: 1px solid black;
-    border-radius: 50%;
-    text-align:center;
-    vertical-align: middle;
-    line-height: 200px;
-    
-    margin-left: 500px;
-    margin-top: 5px;
-    margin-bottom: -5px;
-   
+/* topSCISMenu */
+.topSCISMenu {
+ width: 100%;
+    height: 75px;
+    background-color: rgba(255, 255, 255, 0.95);
 }
-*/
 
 .dropdown-container {
  width: 100%;
