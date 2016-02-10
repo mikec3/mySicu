@@ -7,7 +7,7 @@ CSS settings for HTML div Exact Center
 .links {
  width: 100%;   
  min-height: 200px;
-    background-color: rgba(221, 221, 221, 0.95);
+    background-color: rgba(230, 230, 230, 0.95);
     display: inline-block;
 }
 
