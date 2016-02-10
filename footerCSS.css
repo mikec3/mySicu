@@ -2,6 +2,21 @@
 /*----------------------------------------------
 CSS settings for HTML div Exact Center
 ------------------------------------------------*/
+
+/* links */
+.links {
+ width: 100%;   
+ min-height: 200px;
+    background-color: rgba(221, 221, 221, 0.95);
+    display: inline-block;
+}
+
+.links a {
+ color: black;   
+}
+
+
+
 #abc {
 width:100%;
 height:100%;
