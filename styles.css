@@ -215,10 +215,10 @@ a:hover {
 /* EDUCATIONAL MATERIALS PAGE */
 
 .educationalMaterialsPageContainer {
- width: 800px;
- min-height: 400px;
-    margin: 100px;
-   
+ width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 100px;
 }
 
 .educationBoxes {
