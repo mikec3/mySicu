@@ -210,3 +210,24 @@ a:hover {
 
 
 /* index.php slide show and slide show nav */
+
+
+/* EDUCATIONAL MATERIALS PAGE */
+
+.educationalMaterialsPageContainer {
+ width: 800px;
+ min-height: 400px;
+    margin: 100px;
+   
+}
+
+.educationBoxes {
+ width: 150px;
+ height: 200px;
+   margin: 20px;
+    padding-top: 40px;
+  text-align: center;
+ display: inline-block;
+     background-image: url("poloroidImage.png");
+    background-repeat: no-repeat;
+}
