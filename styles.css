@@ -219,6 +219,8 @@ a:hover {
     height: 600px;
     padding-top: 100px;
     padding-left: 100px;
+    background-image: url("Assets/ocean.jpg");
+    
 }
 
 .educationBoxes {
@@ -230,4 +232,5 @@ a:hover {
  display: inline-block;
      background-image: url("Assets/poloroidImage.png");
     background-repeat: no-repeat;
+    
 }
