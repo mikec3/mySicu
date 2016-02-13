@@ -17,7 +17,7 @@ $('.dropdown').hover( function() {
 /*START OF Below is the pop-op input box for sending a critique of the SCIS. */  
    $(".SCIS").click(function(event) {
       var status = $(this).attr('id');         //registers which SCIS box was clicked
-       $("#procedure").attr("value", status);  // adds the SCIS id (procedure) into the procedure field of SCIS form
+       $('#procedure').attr("value", status);  // adds the SCIS id (procedure) into the procedure field of SCIS form
        $('.SCISInput').show();      
    });
     
