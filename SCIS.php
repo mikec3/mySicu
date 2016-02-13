@@ -248,8 +248,8 @@
     <img id="close" src="/Assets/dialog_close.png">
     <form method='post' id='critique'  >
   
-    <input id='procedure' name='procedure' placeholder='procedure' type='text' required autofocus>  <!-- cursor autofocus to this box -->
-    <textarea id='suggestions' name='suggestions' placeholder='suggestions' type='text'></textarea>
+    <input id='procedure' name='procedure' placeholder='procedure' value="procedure" type='text' required> 
+    <textarea id='suggestions' name='suggestions' placeholder='suggestions' type='text' required autofocus></textarea>
     <input type='submit' name='submit' id='suggest' value='submit'>   <!-- Forgive me code gods, I know not of what i do -->
     
     </form>
