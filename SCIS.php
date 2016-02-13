@@ -24,7 +24,7 @@
         
          
     <div class="surgicalCases">
-   <a href="SCIS.php" style=" color: black; font-size: 30px;"> Surgical cases info sheets </a>
+   <a href="/mySicuPdf/AllSCIS.pdf" style=" color: black; font-size: 30px;"> Surgical cases info sheets </a>
         <ul>
             <div class="dropdown-container" style="background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8n0GVJZiHlomF6gFRMUw9W1vSkdSkN9vgWlnedLkiSiTHLAt5Rg');">
         <li class="dropdown">
