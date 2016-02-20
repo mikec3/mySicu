@@ -2,8 +2,8 @@ $(document).ready(function () {
     "use strict";
  
      // Inserts a sentance to let user know to click in the box to edit. inserts into all SCIS info sheets at top and bottom
-    $('.SCIS').prepend("<p style = 'color: blue; font-size: 20px;'> --Click anywhere to critique/make suggestions to the info sheet!--  </p> <br>");
-     $('.SCIS').append("<p style = 'color: blue; font-size: 20px;'> --Click anywhere to critique/make suggestions to the info sheet!--  </p> <br>");
+    $('.SCIS').prepend("<p style = 'color: blue; font-size: 20px;'> --Click anywhere to critique the info sheet!--  </p> <br>");
+     $('.SCIS').append("<p style = 'color: blue; font-size: 20px;'> --Click anywhere to critique the info sheet!--  </p> <br>");
     
    
 /* Opens and closes the dropdown-menu when hovering the link. "this" is used in the toggle line to allow the hover to only open the specific menu item being hovered over. There are multiple menu items within the same class '.dropdown', so this selects only the actual one

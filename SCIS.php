@@ -244,7 +244,7 @@
 
 <div id='SCISInputX' class='SCISInput'>
     
-    <p> Please fill out this form to critique the info sheets! Please don't forget to type which procedure you are reviewing, thank you!</p>
+    <p> Please fill out this form to critique the info sheets!</p>
     <img id="close" src="/Assets/dialog_close.png">
     <form method='post' id='critique'  >
   

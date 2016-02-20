@@ -29,7 +29,10 @@
         </div>
         
         
-        
+    
+        <div id="pickListEducationPage" class="educationBoxes">
+            <a href="pickList.php"> </br> Pick Lists </a>
+        </div>
         
         
     </div>  

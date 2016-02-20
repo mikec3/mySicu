@@ -1,0 +1,100 @@
+/* pick list style sheet */
+
+#pickListMenu {
+    margin-left: 50px; 
+}
+
+#pickListMenu a{
+ color: black;   
+}
+
+#pickListMenu p {
+ font-size: 35px;   
+}
+/* START of Picklist styling, class of .SCIS */
+
+.SCIS {
+
+ margin-top: 10px;
+ margin-bottom: 30px;
+ padding-left: 20px;
+ padding-right: 100px;
+ border-top: 2px solid #ddd;
+ border-bottom: 2px solid #ddd;
+ border-top-right-radius: 100px;
+ border-bottom-right-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 20px black;
+    width: 75%;
+}
+
+.SCIS li {
+ margin-top: -20px;   
+}
+
+.SCIS a:nth-of-type(1) {
+ font-size: 35px;   
+    margin-top: -30px;
+    padding-top: -30px;
+    color: black;
+
+}
+
+
+
+/* END of Picklist styling */
+
+/* Below is the SCISInput box for reviewing an SCIS and sending it to website admin */
+
+.SCISInput {
+    background-color: #FFBC00;
+width: 900px;
+    margin-left: 150px;
+
+left: 0;
+    right: 0;
+    bottom: 20px;
+    height: 250px;
+   display: none;
+    position: fixed;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.SCISInput p {
+ color: #000077;
+    margin-top: 10px;
+    margin-left: 40px;
+    position: relative;
+    display: inline-block;
+}
+#procedure {
+width: 600px;
+    margin-top: 5px;
+ margin-left: 50px;   
+}
+
+#suggestions {
+width: 600px;
+height: 100px;
+    margin-top: 10px;
+ margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#suggest {
+    position: absolute;
+    display: block;
+text-decoration:none;
+width:200px;
+text-align:center;
+margin-left: 390px;
+
+background-color:white;
+color:black;
+border:1px solid #FFCB00;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+}
+
+/* END OF input box */
